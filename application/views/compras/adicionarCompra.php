@@ -18,12 +18,8 @@
                             <label for="solicitante">Solicitante<span class="required">*</span></label>
                             <select class="span12" name="solicitante" id="solicitante">
                                 <option value="selecione">Selecione</option>
-                                <option value="Alan Silveira">Alan Silveira</option>
-                                <option value="Celso Torok">Celso Torok</option>
-                                <option value="José Marques">José Marques</option>
-                                <option value="Rafael Marques">Rafael Marques</option>
-                                <option value="Rosiane Ribeiro">Rosiane Ribeiro</option>
-                                <option value="Shirley Marques">Shirley Marques</option>
+                                <option value="JULIO CARVALHO">JULIO CARVALHO</option>
+                                <option value="MAURO LIMA">MAURO LIMA</option>
                             </select>
                         </div>
                         </div>
@@ -32,12 +28,8 @@
                             <label for="comprador">Comprador</label>
                             <select class="span12" name="comprador" id="comprador">
                                 <option value="selecione">Selecione</option>
-                                <option value="Alan Silveira">Alan Silveira</option>
-                                <option value="Celso Torok">Celso Torok</option>
-                                <option value="José Marques">José Marques</option>
-                                <option value="Rafael Marques">Rafael Marques</option>
-                                <option value="Rosiane Ribeiro">Rosiane Ribeiro</option>
-                                <option value="Shirley Marques">Shirley Marques</option>
+                                <option value="JULIO CARVALHO">JULIO CARVALHO</option>
+                                <option value="MAURO LIMA">MAURO LIMA</option>
                             </select>
                         </div>
                         </div>

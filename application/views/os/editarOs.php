@@ -1,4 +1,3 @@
-
 <link rel="stylesheet" href="<?php echo base_url();?>js/jquery-ui/css/smoothness/jquery-ui-1.9.2.custom.css" />
 <script type="text/javascript" src="<?php echo base_url()?>js/jquery-ui/js/jquery-ui-1.9.2.custom.js"></script>
 <script type="text/javascript" src="<?php echo base_url()?>js/jquery.validate.js"></script>
@@ -52,12 +51,8 @@
                                             <label for="operador_id">Atendente<span class="required">*</span></label>
                                             <select class="span12" name="operador_id" id="operador_id">
                                                 <option <?php if($result->operador_id == 'selecione'){echo 'selected';} ?> value="selecione">Selecione</option>
-                                                <option <?php if($result->operador_id == '9'){echo 'selected';} ?> value="9">Alan Silveira</option>
-                                                <option <?php if($result->operador_id == '5'){echo 'selected';} ?> value="5">Celso Torok</option>
-                                                <option <?php if($result->operador_id == '6'){echo 'selected';} ?> value="6">José Marques</option>
-                                                <option <?php if($result->operador_id == '3'){echo 'selected';} ?> value="3">Rafael Marques</option>
-                                                <option <?php if($result->operador_id == '7'){echo 'selected';} ?> value="7">Rosiane Ribeiro</option>
-                                                <option <?php if($result->operador_id == '4'){echo 'selected';} ?> value="4">Shirley Marques</option>
+                                                <option <?php if($result->operador_id == '5'){echo 'selected';} ?> value="5">JULIO CARVALHO</option>
+                                                <option <?php if($result->operador_id == '4'){echo 'selected';} ?> value="4">MAURO LIMA</option>
                                             </select>
                                         </div>
                                         <div class="span4">
@@ -92,7 +87,8 @@
                                         <div class="span3">
                                             <label for="garantia">Garantia</label>
                                             <select class="span12" name="garantia" id="garantia" value="">
-                                                <option <?php if($result->garantia == 'selecione'){echo 'selected';} ?> value="selecione">Selecione</option>
+                                                <option <?php if($result->garantia == 'selecione'){echo 'selected';} ?> value="selecione">Sem Garantia</option>
+                                                <option <?php if($result->garantia == '15'){echo 'selected';} ?> value="15">15 Dias</option>
                                                 <option <?php if($result->garantia == '30'){echo 'selected';} ?> value="30">30 Dias</option>
                                                 <option <?php if($result->garantia == '60'){echo 'selected';} ?> value="60">60 Dias</option>
                                                 <option <?php if($result->garantia == '90'){echo 'selected';} ?> value="90">90 Dias</option>
@@ -233,7 +229,7 @@
                                     </div>
                                     <div class="span12" style="padding: 1%; margin-left: 0">
                                         <div class="span6 offset3" style="text-align: center">
-                                            <button class="btn btn-primary" id="btnContinuar"><i class="icon-white icon-ok"></i> Alterar</button>
+                                            <button class="btn btn-primary" id="btnContinuar"><i class="icon-white icon-ok"></i> Salvar</button>
                                             <a href="<?php echo base_url() ?>index.php/os/visualizar/<?php echo $result->idOs; ?>" class="btn btn-inverse"><i class="icon-eye-open"></i> Visualizar OS</a>
                                             <a href="<?php echo base_url() ?>index.php/os" class="btn"><i class="icon-arrow-left"></i> Voltar</a>
                                         </div>

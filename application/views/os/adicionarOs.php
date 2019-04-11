@@ -43,16 +43,13 @@
                                             <label for="operador_id">Atendente<span class="required">*</span></label>
                                             <select class="span12" name="operador_id" id="operador_id">
                                                 <option value="selecione">Selecione</option>
-                                                <option value="5">Celso Torok</option>
-                                                <option value="6">José Marques</option>
-                                                <option value="3">Rafael Marques</option>
-                                                <option value="7">Rosiane Ribeiro</option>
-                                                <option value="4">Shirley Marques</option>
+                                                <option value="5">JULIO CARVALHO</option>
+                                                <option value="4">MAURO LIMA</option>
                                             </select>
                                         </div>
                                         <div class="control-group span4">
                                             <label for="tecnico">Técnico / Responsável<span class="required">*</span></label>
-                                            <input id="tecnico" class="span12" type="text" name="tecnico" value="Computador Ponto Com" disabled="disabled"/>
+                                            <input id="tecnico" class="span12" type="text" name="tecnico" value="" />
                                             <input id="usuarios_id" class="span12" type="hidden" name="usuarios_id" value="1" />
                                         </div>
                                     </div>
@@ -79,6 +76,8 @@
                                         <div class="span3">
                                             <label for="garantia">Garantia</label>
                                             <select class="span12" name="garantia" id="garantia">
+                                                <option value="">Sem Garantia</option>
+                                                <option value="15">15 Dias</option>
                                                 <option value="30">30 Dias</option>
                                                 <option value="60">60 Dias</option>
                                                 <option value="90">90 Dias</option>

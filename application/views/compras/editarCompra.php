@@ -18,24 +18,16 @@
                                 <label for="solicitante">Solicitante<span class="required">*</span></label>
                                 <select class="span12" name="solicitante" id="solicitante">
                                     <option <?php if($result->solicitante == 'selecione'){echo 'selected';} ?> value="selecione">Selecione</option>
-                                    <option <?php if($result->solicitante == 'Alan Silveira'){echo 'selected';} ?> value="Alan Silveira">Alan Silveira</option>
-                                    <option <?php if($result->solicitante == 'Celso Torok'){echo 'selected';} ?> value="Celso Torok">Celso Torok</option>
-                                    <option <?php if($result->solicitante == 'José Marques'){echo 'selected';} ?> value="José Marques">José Marques</option>
-                                    <option <?php if($result->solicitante == 'Rafael Marques'){echo 'selected';} ?> value="Rafael Marques">Rafael Marques</option>
-                                    <option <?php if($result->solicitante == 'Rosiane Ribeiro'){echo 'selected';} ?> value="Rosiane Ribeiro">Rosiane Ribeiro</option>
-                                    <option <?php if($result->solicitante == 'Shirley Marques'){echo 'selected';} ?> value="Shirley Marques">Shirley Marques</option>
+                                    <option <?php if($result->solicitante == 'JULIO CARVALHO'){echo 'selected';} ?> value="JULIO CARVALHO">JULIO CARVALHO</option>
+                                    <option <?php if($result->solicitante == 'MAURO LIMA'){echo 'selected';} ?> value="MAURO LIMA">MAURO LIMA</option>
                                 </select>
                             </div>
                             <div class="span4">
                                 <label for="comprador">Comprador</label>
                                 <select class="span12" name="comprador" id="comprador">
                                     <option <?php if($result->comprador == 'selecione'){echo 'selected';} ?> value="selecione">Selecione</option>
-                                    <option <?php if($result->comprador == 'Alan Silveira'){echo 'selected';} ?> value="Alan Silveira">Alan Silveira</option>
-                                    <option <?php if($result->comprador == 'Celso Torok'){echo 'selected';} ?> value="Celso Torok">Celso Torok</option>
-                                    <option <?php if($result->comprador == 'José Marques'){echo 'selected';} ?> value="José Marques">José Marques</option>
-                                    <option <?php if($result->comprador == 'Rafael Marques'){echo 'selected';} ?> value="Rafael Marques">Rafael Marques</option>
-                                    <option <?php if($result->comprador == 'Rosiane Ribeiro'){echo 'selected';} ?> value="Rosiane Ribeiro">Rosiane Ribeiro</option>
-                                    <option <?php if($result->comprador == 'Shirley Marques'){echo 'selected';} ?> value="Shirley Marques">Shirley Marques</option>
+                                    <option <?php if($result->comprador == 'JULIO CARVALHO'){echo 'selected';} ?> value="JULIO CARVALHO">JULIO CARVALHO</option>
+                                    <option <?php if($result->comprador == 'MAURO LIMA'){echo 'selected';} ?> value="MAURO LIMA">MAURO LIMA</option>
                                 </select>
                             </div>
                             <div class="span4">
@@ -89,7 +81,7 @@
                         <div class="form-actions">
                             <div class="span12" style="padding: 1%; margin-left: 0">
                                 <div class="span6 offset3" style="text-align: center">
-                                    <button class="btn btn-success"><i class="icon-plus icon-white"></i> Editar</button>
+                                    <button class="btn btn-success"><i class="icon-plus icon-white"></i> Salvar</button>
                                     <?php if($result->faturado == 0 && $result->status == 'Faturado'){ ?>
                                         <a href="#modal-faturar" id="btn-faturar" role="button" data-toggle="modal" class="btn btn-success"><i class="icon-file"></i> Faturar</a>
                                     <?php } else if($result->faturado == 1 && $result->status == 'Faturado') { ?>

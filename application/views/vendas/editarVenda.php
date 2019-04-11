@@ -50,18 +50,7 @@
                                     
                                    
                                    
-                                    <div class="span12" style="padding: 1%; margin-left: 0">
-            
-                                        <div class="span8 offset2" style="text-align: center">
-                                            <?php if($result->faturado == 0){ ?>
-                                            <a href="#modal-faturar" id="btn-faturar" role="button" data-toggle="modal" class="btn btn-success"><i class="icon-file"></i> Faturar</a>
-                                            <?php } ?>
-                                            <button class="btn btn-primary" id="btnContinuar"><i class="icon-white icon-ok"></i> Alterar</button>
-                                            <a href="<?php echo base_url() ?>index.php/vendas/visualizar/<?php echo $result->idVendas; ?>" class="btn btn-inverse"><i class="icon-eye-open"></i> Visualizar Venda</a>
-                                            <a href="<?php echo base_url() ?>index.php/vendas" class="btn"><i class="icon-arrow-left"></i> Voltar</a>
-                                        </div>
 
-                                    </div>
 
                                 </form>
                                 
@@ -117,9 +106,22 @@
                                             </tbody>
                                         </table>
 
+										<form action="<?php echo current_url(); ?>" method="post" id="formVendas">
+											<?php echo form_hidden('idVendas',$result->idVendas) ?>
+												<div class="span12" style="padding: 1%; margin-left: 0">
+					
+												<div class="span8 offset2" style="text-align: center">
+													<?php if($result->faturado == 0){ ?>
+													<a href="#modal-faturar" id="btn-faturar" role="button" data-toggle="modal" class="btn btn-success"><i class="icon-file"></i> Faturar</a>
+													<?php } ?>
+													<button class="btn btn-primary" id="btnContinuar"><i class="icon-white icon-ok"></i> Salvar</button>
+													<a href="<?php echo base_url() ?>index.php/vendas/visualizar/<?php echo $result->idVendas; ?>" class="btn btn-inverse"><i class="icon-eye-open"></i> Visualizar Venda</a>
+													<a href="<?php echo base_url() ?>index.php/vendas" class="btn"><i class="icon-arrow-left"></i> Voltar</a>
+												</div>
 
-                                        
-
+											</div>
+												
+										</form>
 
                                     </div>
 
