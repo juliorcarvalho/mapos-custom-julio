@@ -160,11 +160,8 @@
 
       <select name="usuarios_id" class="span12">
         <option value="">Todos</option>
-        <option value="5">Celso Torok</option>
-        <option value="6">José Marques</option>
-        <option value="3">Rafael Marques</option>
-        <option value="7">Rosiane Ribeiro</option>
-        <option value="4">Shirley Marques</option>
+        <option value="5">JULIO CARVALHO</option>
+        <option value="4">MAURO LIMA</option>
         <option value="0">Outros</option>
       </select>
 
@@ -339,13 +336,9 @@ if(!$results){?>
             if ($r->usuarios_id != "") {
               $usuarios_id = $r->usuarios_id;
               if ($usuarios_id == "5") {
-                $usuarios_nome = "(Celso Torok)";
-              } elseif ($usuarios_id == "6") {
-                $usuarios_nome = "(José Marques)";
-              } elseif ($usuarios_id == "3") {
-                $usuarios_nome = "(Rafael Marques)";
-              } elseif ($usuarios_id == "7") {
-                $usuarios_nome = "(Rosiane Ribeiro)";
+                $usuarios_nome = "(JULIO CARVALHO)";
+              } elseif ($usuarios_id == "4") {
+                $usuarios_nome = "(MAURO LIMA)";
               } else {
                 $usuarios_nome = "(Loja)";
               }
@@ -508,11 +501,8 @@ if(!$results){?>
           <label>Recurso</label>
           <select class="span12" name="usuarios_id" id="usuarios_id">
               <option value="">Selecione</option>
-              <option value="5">Celso Torok</option>
-              <option value="6">José Marques</option>
-              <option value="3">Rafael Marques</option>
-              <option value="7">Rosiane Ribeiro</option>
-              <option value="4">Shirley Marques</option>
+              <option value="5">JULIO CARVALHO</option>
+              <option value="4">MAURO LIMA</option>
           </select>
 
         </div>
@@ -795,11 +785,8 @@ if(!$results){?>
           <label for="usuarios_id">Recurso</label>
           <select class="span12" name="usuarios_id" id="usuariosIdEditar">
               <option value="">Selecione</option>
-              <option value="5">Celso Torok</option>
-              <option value="6">José Marques</option>
-              <option value="3">Rafael Marques</option>
-              <option value="7">Rosiane Ribeiro</option>
-              <option value="4">Shirley Marques</option>
+              <option value="5">JULIO CARVALHO</option>
+              <option value="4">MAURO LIMA</option>
           </select>
         </div>
       </div>

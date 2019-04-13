@@ -47,14 +47,7 @@
                                             <input id="clientes_id" class="span12" type="hidden" name="clientes_id" value="<?php echo $result->clientes_id ?>"  />
                                             <input id="valorTotal" type="hidden" name="valorTotal" value=""  />
                                         </div>
-                                        <div class="span4">
-                                            <label for="operador_id">Atendente<span class="required">*</span></label>
-                                            <select class="span12" name="operador_id" id="operador_id">
-                                                <option <?php if($result->operador_id == 'selecione'){echo 'selected';} ?> value="selecione">Selecione</option>
-                                                <option <?php if($result->operador_id == '5'){echo 'selected';} ?> value="5">JULIO CARVALHO</option>
-                                                <option <?php if($result->operador_id == '4'){echo 'selected';} ?> value="4">MAURO LIMA</option>
-                                            </select>
-                                        </div>
+
                                         <div class="span4">
                                             <label for="tecnico">Técnico / Responsável<span class="required">*</span></label>
                                             <input id="tecnico" class="span12" type="text" name="tecnico" value="<?php echo $result->nome ?>"  />

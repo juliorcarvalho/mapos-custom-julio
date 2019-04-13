@@ -63,11 +63,8 @@
       <label>Recurso <i class="icon-info-sign tip-top" title="Nome do Recurso"></i></label>
       <select class="span12" name="recurso" id="recurso">
           <option value="selecione">Selecione</option>
-          <option value="Celso Torok">Celso Torok</option>
-          <option value="José Marques">José Marques</option>
-          <option value="Rafael Marques">Rafael Marques</option>
-          <option value="Rosiane Ribeiro">Rosiane Ribeiro</option>
-          <option value="Shirley Marques">Shirley Marques</option>
+          <option value="Celso Torok">JULIO CARVALHO</option>
+          <option value="Shirley Marques">MAURO LIMA</option>
       </select>
     </div>
 
@@ -388,11 +385,8 @@ if(!$results){?>
           <label for="fornecedor">Recurso</label>
           <select class="span12" name="fornecedor" id="fornecedor">
               <option value="selecione">Selecione</option>
-              <option value="Celso Torok">Celso Torok</option>
-              <option value="José Marques">José Marques</option>
-              <option value="Rafael Marques">Rafael Marques</option>
-              <option value="Rosiane Ribeiro">Rosiane Ribeiro</option>
-              <option value="Shirley Marques">Shirley Marques</option>
+              <option value="Celso Torok">JULIO CARVALHO</option>
+              <option value="Shirley Marques">MAURO LIMA</option>
           </select>
 
         </div>

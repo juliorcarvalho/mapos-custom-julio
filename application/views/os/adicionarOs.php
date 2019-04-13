@@ -39,14 +39,7 @@
                                             <input id="cliente" class="span12" type="text" name="cliente" value=""  />
                                             <input id="clientes_id" class="span12" type="hidden" name="clientes_id" value=""  />
                                         </div>
-                                        <div class="control-group span4">
-                                            <label for="operador_id">Atendente<span class="required">*</span></label>
-                                            <select class="span12" name="operador_id" id="operador_id">
-                                                <option value="selecione">Selecione</option>
-                                                <option value="5">JULIO CARVALHO</option>
-                                                <option value="4">MAURO LIMA</option>
-                                            </select>
-                                        </div>
+
                                         <div class="control-group span4">
                                             <label for="tecnico">Técnico / Responsável<span class="required">*</span></label>
                                             <input id="tecnico" class="span12" type="text" name="tecnico" value="" />

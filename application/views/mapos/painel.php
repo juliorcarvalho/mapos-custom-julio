@@ -55,10 +55,7 @@
     <div class="span3" style="margin-left: 0">
         <form action="<?php echo current_url(); ?>" method="get" >
             <select id="tecnico" name="usuarios_id" class="span12">
-                <option value="">Técnico</option>
-                <option value="5">Celso Torok</option>
-                <option value="6">José Marques</option>
-                <option value="3">Rafael Marques</option>
+                <option value="">ORDENS DE SERVIÇO</option>
             </select>
         </form>
     </div>
