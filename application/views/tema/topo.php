@@ -3,7 +3,7 @@
 <!-- PHP-Part -->
 <?php $operador = $this->session->userdata('nome'); ?>
 <head>
-  <title>MapOS</title>
+  <title>Gtech - Ordem de Serviço</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
@@ -222,7 +222,7 @@
 
 <!--Footer-part-->
 <div class="row-fluid">
-  <div id="footer" class="span12"> 2013 - <?php echo date('Y') ?> &copy; MapOS - Versão: 2.6.4 | Custom - Solução em Informática</div>
+  <div id="footer" class="span12"> 2017 - <?php echo date('Y') ?> &copy; MapOS - Versão: 2.6.4 | Custom - Guanhães Tecnologia</div>
 </div>
 <!--end-Footer-part-->
 
